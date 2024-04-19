@@ -98,11 +98,11 @@ async function checkAndUpdate() {
   }
 }
 
-// Do not remove anything if you don't know what you're doing! -Yan
+// Do not remove anything if you don't know what you're doing! -Tan
 
 setTimeout(() => {
   checkAndUpdate();
 }, 20000);
 
-  // __@YanMaglinte was Here__ //
+  // __Tanley was Here__ //
 // ----------------------------//
