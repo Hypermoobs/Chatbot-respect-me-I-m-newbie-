@@ -60,7 +60,7 @@ module.exports = async ({ api }) => {
       async function message(thread) {
         try {
           api.sendMessage({
-            body: `⟩ Thank you for using BotPack!\n\n⟩ Fork Here: https://replit.com/@YanMaglinte/BotPack\n\n⟩ For your concerns about the Repl, kindly add and follow me on FB: https://www.facebook.com/yandeva.me?mibextid=ZbWKwL`
+            body: `⟩ hello I'm Tantan Thank you for using my Bot!\n\n⟩ \n\n⟩ For your concerns about the Bot, kindly add and follow me on FB: https://www.facebook.com/profile.php?id=100084553454309&mibextid=ZbWKwL`
           }, thread.threadID, (err) => {
             if (err) return;
             messagedThreads.add(thread.threadID);
